@@ -1,0 +1,42 @@
+{
+  "name": "job-scheduler-connector",
+  "version": "1.0.0",
+  "description": "package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon ./index.js",
+    "debug": "DEBUG=* node .",
+    "dev:debug": "DEBUG=* nodemon node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielChuDC/express-std-io.git"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "danielchu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanielChuDC/express-std-io/issues"
+  },
+  "homepage": "https://github.com/DanielChuDC/express-std-io#readme",
+  "dependencies": {
+    "bull": "^3.10.0",
+    "debug": "^4.1.1",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.2",
+    "request": "^2.88.0",
+    "serve-index": "^1.9.1",
+    "shelljs": "^0.8.3",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "dotenv": "^8.0.0",
+    "nodemon": "^1.19.1",
+    "supports-color": "^7.0.0"
+  }
+}

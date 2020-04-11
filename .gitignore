@@ -1,0 +1,7 @@
+.vscode
+node_modules
+.env
+script
+.terraform
+.DS_Store
+docker-compose.yml

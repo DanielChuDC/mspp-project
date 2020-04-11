@@ -1,0 +1,17 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^3.21.2",
+    "jade": "*",
+    "mqtt": "^3.0.0",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.0.0"
+  }
+}

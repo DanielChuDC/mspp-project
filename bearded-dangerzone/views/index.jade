@@ -1,0 +1,25 @@
+extends layout
+
+block content
+  .page-wrap
+    .header
+      h1 Bearded Dangerzone
+        span.status.offline Offline
+
+    .controls
+      .publish
+        h2 Publishing!
+        input(type="text", id="pub-topic", placeholder="Topic")
+        input(type="text", id="message", placeholder="Message")
+        input(type="button", id="publish", value="Publish!")
+
+      .subscribe
+        h2 Subscribing!
+        input(type="text", id="sub-topic", placeholder="Topic")
+        input(type="button", id="subscribe", value="Subscribe!")
+
+      .clear
+
+    .messages
+      h2 Messages!
+      #message-list
