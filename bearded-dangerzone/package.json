@@ -9,7 +9,7 @@
     "express": "^3.21.2",
     "jade": "*",
     "mqtt": "^3.0.0",
-    "socket.io": "^2.2.0"
+    "socket.io": "^2.5.0"
   },
   "devDependencies": {
     "dotenv": "^8.0.0"
